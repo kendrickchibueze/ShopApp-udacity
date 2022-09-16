@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Pizza Shop"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+
+
+      />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_weight="2"
+         android:scaleType="center"
+         android:src="@drawable/pizza"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:text="Description\nThis is our piza shop and we are happy people who satisfies our customers with sweet pizza, oven baked ready and yummy!!"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="Email:\t\t\tshoppypizza@gmail.com"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="Address:\t\t\tIO3 columbia Missouri"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact us"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="120dp"/>
+
+
+
+
+
+</LinearLayout>
